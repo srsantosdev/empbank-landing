@@ -1,0 +1,111 @@
+.container {
+  width: 100%;
+}
+
+.content {
+  width: 100%;
+  max-width: 1100px;
+  margin: 2.4rem auto;
+  padding: 0 2.4rem;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header nav {
+  display: flex;
+  align-items: center;
+  gap: 3.2rem;
+}
+
+header > nav a {
+  display: block;
+  padding: 0.8rem;
+  text-decoration: none;
+  color: #757576;
+
+  transition: filter 0.2s;
+}
+
+header > nav a:hover {
+  filter: brightness(0.9);
+}
+
+header > nav button {
+  height: 3.5rem;
+
+  border: 0;
+  border-radius: 3.5rem;
+  padding: 0.8rem 1.6rem;
+
+  background: rgba(216, 255, 247, 0.2);
+  box-shadow: 0px 0px 5px rgba(216, 255, 247, 0.2);
+  color: #00C49A;
+
+  transition: filter 0.2s;
+}
+
+header > nav button:hover {
+  filter: brightness(0.8);
+}
+
+main {
+  position: relative;
+  margin-top: 8rem;
+}
+
+main div h1 {
+  width: 700px;
+  font-weight: 400;
+  font-size: 4rem;
+  line-height: 5.8rem;
+
+  color: #231f20;
+}
+
+main img {
+  position: absolute;
+
+  right: 0;
+  top: 0;
+}
+
+main div > span {
+  display: block;
+  width: 410px;
+  margin-top: 4rem;
+  color: #757576;
+}
+
+main div > button {
+  width: 28.3rem;
+  height: 5rem;
+
+  border: 0;
+  background: #00c49a;
+  border-radius: 3.5rem;
+
+  margin-top: 2.4rem;
+  padding: 0.8rem 1.6rem;
+
+  font-weight: bold;
+  text-transform: uppercase;
+
+  color: #ffffff;
+  transition: filter 0.2s;
+}
+
+main div > button:hover {
+  filter: brightness(0.8);
+}
+
+h1 span {
+  font-weight: 600;
+}
+
+.spotlight-green {
+  color: #00c49a;
+}
